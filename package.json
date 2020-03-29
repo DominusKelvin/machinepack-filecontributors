@@ -1,0 +1,34 @@
+{
+  "name": "machinepack-filecontributors",
+  "version": "0.1.0",
+  "description": "Communicate with the Github API to get contributors for a file",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "FileContributors",
+    "machines",
+    "machinepack"
+  ],
+  "author": "Kelvin Omereshone",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DominusKelvin/machinepack-filecontributors.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "file-contributors": "^1.0.2",
+    "machine": "^12.2.5",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "FileContributors",
+    "machineDir": "machines/",
+    "machines": [
+      "get-file-contributors"
+    ]
+  }
+}
