@@ -1,6 +1,6 @@
 {
   "name": "machinepack-filecontributors",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Communicate with the Github API to get contributors for a file",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
